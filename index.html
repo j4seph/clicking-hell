@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<link rel="stylesheet" href="./style.css" />
+		<link
+			href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,300;0,900;1,900&display=swap"
+			rel="stylesheet"
+		/>
+		<title>Clicking Hell</title>
+	</head>
+	<body>
+		<div class="wrapper">
+			<div class="left-side">
+				<svg width="42" height="86" viewBox="0 0 42 86" fill="none" xmlns="http://www.w3.org/2000/svg">
+				<path d="M28.8397 24.8593V24.859C28.8397 21.3996 31.6058 18.609 35.0449 18.609C38.484 18.609 41.25 21.3996 41.25 24.859V64.7052C41.25 75.8858 32.1807 84.9552 21 84.9552C9.81934 84.9552 0.75 75.8858 0.75 64.7052V56.5385C0.75 53.0848 3.54627 50.2885 7 50.2885C10.4537 50.2885 13.25 53.0848 13.25 56.5385V64.7052C13.25 68.9936 16.769 72.4552 21.0449 72.4552C25.3232 72.4552 28.8216 68.9913 28.8218 64.7055C28.8218 64.7054 28.8218 64.7053 28.8218 64.7052L28.8397 24.8593Z" stroke="white" stroke-width="1.5"/>
+				<path d="M41.25 7C41.25 10.4518 38.4518 13.25 35 13.25C31.5482 13.25 28.75 10.4518 28.75 7C28.75 3.54822 31.5482 0.75 35 0.75C38.4518 0.75 41.25 3.54822 41.25 7Z" stroke="white" stroke-width="1.5"/>
+				<path opacity="0.8" d="M41.25 24.859C41.25 28.3108 38.4518 31.109 35 31.109C31.5482 31.109 28.75 28.3108 28.75 24.859C28.75 21.4072 31.5482 18.609 35 18.609C38.4518 18.609 41.25 21.4072 41.25 24.859Z" stroke="white" stroke-width="1.5"/>
+				<path opacity="0.8" d="M13.25 56.4487C13.25 59.9005 10.4518 62.6987 7 62.6987C3.54822 62.6987 0.75 59.9005 0.75 56.4487C0.75 52.997 3.54822 50.1987 7 50.1987C10.4518 50.1987 13.25 52.997 13.25 56.4487Z" stroke="white" stroke-width="1.5"/>
+				</svg>
+
+
+				<div class="hero-text">
+					<h1 class="title">Clicking Hell</h1>
+					<p>Test your reaction time and mouse skills with this game.</p>
+
+					<div class="high-score">
+						<h1 class="score">0</h1>
+						<p>Your current high score</p>
+					</div>
+
+					<button class="redo-button">Redo</button>
+				</div>
+			</div>
+
+			<div class="right-side">
+				<div class="timer">
+					<h1 class="seconds">30</h1>
+					<p class="timer-text">Second timer</p>
+				</div>
+
+				<div class="grid-container">
+					<div class="box-grid"></div>
+				</div>
+
+				<p class="start-help">Click a coloured box to begin</p>
+
+				<div class="complete-results">
+					<h1 id="complete-results-h1"></h1>
+					<p id="complete-results-p"></p>
+				</div>
+
+				<div class="failed-results">
+					<h1 id="failed-results-h1"></h1>
+					<p id="failed-results-p"></p>
+				</div>
+			</div>
+		</div>
+
+		<script
+			src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/js/all.min.js"
+			integrity="sha256-KzZiKy0DWYsnwMF+X1DvQngQ2/FxF7MF3Ff72XcpuPs="
+			crossorigin="anonymous"
+		></script>
+		<script src="./app.js"></script>
+	</body>
+</html>
